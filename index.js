@@ -1,7 +1,10 @@
 function getUserGuess(){
     document.getElementById("message").innerHTML = "Nu har du gissat!"
    const input = document.getElementById("user-input").value;
-   return parseInt(input)
+if (getUserGuess === "69"){
+    alert("Du har gissat rätt!")
+}
+return parseInt(input)
 }
 
 document.addEventListener("keyup", function (event) {
